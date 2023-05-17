@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+
+<style>
+.row .maps button:hover{
+background-color: chartreuse;
+transition: 1s;
+}
+.row .maps button{
+  width: 30%;background-color: aquamarine;border-radius: 25px;height: 80px;
+}
+#navbar{
+  position: absolute;
+  top: 0;
+  width: 86%;
+  border-radius: 25px;
+}
+.home{
+  margin-top: 29px;
+}
+@media screen and (max-width:500px){
+  #navbar{
+  position: relative;
+  top: 30px;
+  width: 100%;
+  }
+  .home{
+    margin-top: 40px;
+  }
+  #fff {
+width: 10%;
+align-items: center;
+  }
+}
+
+#textst p{
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation-name:typing;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+
+}
+@keyframes typing {
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+}
+
+</style>
+
+
+</head>
+<body style="background-color: rgb(5, 29, 46);">
+
+    <!-- top navbar -->
+    <div class="top-navbar">
+       <p style="color: transparent;">Welcome</p>
+        <div class="icons">
+            <a style="color:rgb(64, 255, 17)" href="login.html"><img style="background-color: #41cc3c;" src="./images/register.png" alt="" width="18px">Login</a>
+            <a style="color:rgb(118, 226, 35)" href="register.html"><img style="background-color: #41cc3c;" src="./images/register.png" alt="" width="18px">Register</a>
+        </div>
+    </div>
+    <!-- top navbar -->
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" id="logo"><span id="span1">Ni</span>rmala <span>gift House</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><img src="./images/menu.png" alt="" width="30px"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Product</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(67 0 86);">
+                  <li><a class="dropdown-item" href="#">Samrt Phone</a></li>
+                  <li><a class="dropdown-item" href="#">Mobile Phone</a></li>
+                  <li><a class="dropdown-item" href="#">Cameras</a></li>
+                  <li><a class="dropdown-item" href="#">Fridge</a></li>
+                  <li><a class="dropdown-item" href="#">AC</a></li>
+                  <li><a class="dropdown-item" href="#">Samrt Watch</a></li>
+                  <li><a class="dropdown-item" href="#">Headphone</a></li>
+                  <li><a class="dropdown-item" href="#">Laptop</a></li>
+                  <li><a class="dropdown-item" href="#">PC Moniter</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" id="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar -->
+    
+
+
+
+
+
+ 
+    <div class="container" id="about">
+        
+        
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-5 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://th.bing.com/th/id/OIP.DgAzJ8MDe4ztAN47oqZp0QHaFj?pid=ImgDet&rs=1" alt="">
+                </div>
+            </div>
+            <div id="textst" class="col-md-7 py-3 py-md-0">
+                <p style="color: aliceblue;"><B>Welcome to Nirmala Gift House About Section ,Here you can get Various types of gift items like furnitures,Electronics items,dinner sets,kitchen appliances,and here we sell Various types of Toys,batteries,stablizers,inverters,etc...<br><br>Owner of this Shop:Uttam Kumar Dey<br>Location of this shop is=Umerkote, main road,district nabrangpur pin:764073<br>We have dealership of(companies) : Whirlpool,Sony,zebronics,crown,Bpl,Kelvinator..<br>--------------------------------------------------------------------------<br>Come and visit our shop at Umerkote , Contact us at :9777837744</B></p>
+                <br><hr>
+                <button>Read More...</button>
+            </div>
+        </div>
+    </div>
+
+
+<hr style="color: aliceblue;"> 
+
+<h1 style="text-align: center;color: aliceblue;"><B>Latest Products Available 24/7</B></h1><hr style="color: aliceblue;">
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img style="height: 500px;width: 1000px;" src="https://xiaomiplanet.sk/wp-content/uploads/2020/03/xiaomi-mi-tv-4s-65-palcov.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img style="height: 500px;" src="https://cdn.wallpapersafari.com/65/92/61RUmZ.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img style="height: 500px;" src="    https://images.samsung.com/is/image/samsung/pk-feature-the-real-4k-uhd-tv-79316216?$FB_TYPE_A_JPG$
+      " class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img style="height: 500px;" src="https://www.bijlibachao.com/wp-content/uploads/2018/02/Whirlpool-Featured.jpg" class="d-block w-100" alt="...">
+    </div>
+
+    <div class="carousel-item">
+      <img style="height: 500px;" src="https://5.imimg.com/data5/SELLER/Default/2021/1/YS/BS/WB/47684769/voltas-deep-freezer.jpg" class="d-block w-100" alt="...">
+    </div>
+
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<hr><br>
+
+<div class="row" style="margin-top: 50px;">
+  <div class="col-md-5 py-3 py-md-0">
+      <div id="fff" style="height: 400px;width: 500px;border-radius: 50px;text-align: center;" class="card">
+          <img style="height: 400px;width: 500px;border-radius: 50px;text-align: center;" src="https://www.mediabeast.pk/wp-content/uploads/2021/03/google-maps-satellite.png" alt="">
+      </div>
+  </div>
+  <div class="col-md-7 py-3 py-md-0">
+      <h2 style="color: aliceblue;text-align: center;"><b> can visit our Shop just click on below Button to Navigate</b></h2>
+      <br><hr>
+      <div class="maps" style="text-align: center;">
+<a href="https://maps.app.goo.gl/mZaTXa5b9kzymvJ1A">      <button >Navigate the location</button></div></a>
+  </div>
+</div>
+
+
+
+
+
+    <!-- offer -->
+    <div class="container" id="offer">
+      <div style="background-color: rgb(67, 67, 60);border-radius: 25px;" class="row">
+        <div style="text-align:center ;" class="col-md-3 py-3 py-md-0">
+          <i style="color:rgb(27, 141, 109)" class="fa-solid fa-cart-shopping"></i>
+          <h3 style="color:aliceblue">Free Shipping</h3>
+          <p style="color:aliceblue">On order over $1000</p>
+        </div>
+        <div style="text-align:center ;" class="col-md-3 py-3 py-md-0">
+          <i style="color:rgb(27, 141, 109)" class="fa-solid fa-rotate-left"></i>
+          <h3 style="color:aliceblue">Free Returns</h3>
+          <p style="color:aliceblue">Within 30 days</p>
+        </div>
+        <div style="text-align:center ;" class="col-md-3 py-3 py-md-0">
+          <i style="color:rgb(27, 141, 109)" class="fa-solid fa-truck"></i>
+          <h3 style="color:aliceblue">Fast Delivery</h3>
+          <p style="color:aliceblue">World Wide</p>
+        </div>
+        <div style="text-align:center ;" class="col-md-3 py-3 py-md-0">
+          <i style="color:rgb(27, 141, 109)"  class="fa-solid fa-thumbs-up"></i>
+          <h3 style="color:aliceblue">Big choice</h3>
+          <p style="color:aliceblue">Of products</p>
+        </div>
+      </div>
+    </div>
+    <!-- offer -->
+
+
+
+
+
+    
+    <!-- newslater -->
+    <div class="container" id="newslater">
+      <h3 style="color: aliceblue;" class="text-center"><b>Subscribe To The Electronic Shop For Latest upload.</b></h3>
+      <div class="input text-center">
+        <input style="border-radius: 25px;" type="text" placeholder="Enter Your Email..">
+        <button id="subscribe">SUBSCRIBE</button>
+      </div>
+    </div>
+    <!-- newslater -->
+
+
+
+
+
+
+    <!-- footer -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3>Electronic Shop</h3>
+              <p>
+               <br>
+              Umerkote
+               Nabrangpur <br>
+                Odisha <br>
+              </p>
+              <strong>Phone:</strong> +91 7894592274 <br>
+              <strong>Email:</strong> sdey06384@gmail.com <br>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Usefull Links</h4>
+             <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policey</a></li>
+             </ul>
+            </div>
+
+
+
+           
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+
+             <ul>
+              <li><a href="#">PS 5</a></li>
+              <li><a href="#">Computer</a></li>
+              <li><a href="#">Gaming Laptop</a></li>
+              <li><a href="#">Mobile Phone</a></li>
+              <li><a href="#">Gaming Gadget</a></li>
+             </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Social Networks</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, quibusdam.</p>
+
+              <div class="socail-links mt-3">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container py-4">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Subham Dey</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="#">Subham Dey</a>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+
+
+
+
+
+
+
+    <a href="#" class="arrow"><i><img src="./images/arrow.png" alt=""></i></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
